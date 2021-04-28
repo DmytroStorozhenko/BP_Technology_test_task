@@ -12,6 +12,7 @@ export const useForm = (
     useEffect(() => {
         if (Object.keys(errors).length === 0 && isSubmitting) {
             callback();
+            setValues({})
         }
     }, [errors]);
 
@@ -19,13 +20,12 @@ export const useForm = (
         if (event) event.preventDefault();
         setErrors(validate(values));
         setIsSubmitting(true);
-        setValues({})
-        setErrors({})
     };
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         event.persist();
         setValues(values => ({...values, [event.target.name]: event.target.value}));
+        setErrors({})
     };
 
     return {

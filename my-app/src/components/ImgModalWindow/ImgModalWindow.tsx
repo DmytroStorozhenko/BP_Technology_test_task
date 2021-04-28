@@ -31,6 +31,7 @@ export const ImgModalWindow: FC<ImgModalPropsType> = (props) => {
         handleChange,
         handleSubmit,
     } = useForm(submitCallback, Validate)
+
     return (
         <>
             <div className={styles.modal_container}>
