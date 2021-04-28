@@ -35,12 +35,11 @@ export const AllImages: FC<AllImagesPropsType> = (props) => {
                     })
                 }
                 {props.isModalOpen &&
-                <div >
-                    <ImgModalWindow
-                        image_id={currentImage}
-                        closeHandler={props.setIsModalOpen}
-                    />
-                </div>}
+                <ImgModalWindow
+                    image_id={currentImage}
+                    closeHandler={props.setIsModalOpen}
+                />
+                }
             </div>
         </>
     )
@@ -48,7 +47,8 @@ export const AllImages: FC<AllImagesPropsType> = (props) => {
 
 // types
 
-type AllImagesPropsType = {
+type AllImagesPropsType =
+{
     isModalOpen: boolean
     setIsModalOpen: () => void
 }

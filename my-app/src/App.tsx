@@ -22,9 +22,7 @@ function App() {
             </div>
             <Footer/>
             {isModalOpen &&
-            <div className={styles.modal_block}>
-
-            </div>
+            <div className={styles.modal_block}></div>
             }
         </div>
     );
