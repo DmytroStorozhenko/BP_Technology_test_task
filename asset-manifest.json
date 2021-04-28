@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BP_Technology_test_task/static/css/main.5c23b777.chunk.css",
+    "main.js": "/BP_Technology_test_task/static/js/main.3bfb5a3e.chunk.js",
+    "main.js.map": "/BP_Technology_test_task/static/js/main.3bfb5a3e.chunk.js.map",
+    "runtime-main.js": "/BP_Technology_test_task/static/js/runtime-main.9a6bf782.js",
+    "runtime-main.js.map": "/BP_Technology_test_task/static/js/runtime-main.9a6bf782.js.map",
+    "static/js/2.545fbc4c.chunk.js": "/BP_Technology_test_task/static/js/2.545fbc4c.chunk.js",
+    "static/js/2.545fbc4c.chunk.js.map": "/BP_Technology_test_task/static/js/2.545fbc4c.chunk.js.map",
+    "static/js/3.5461d3e4.chunk.js": "/BP_Technology_test_task/static/js/3.5461d3e4.chunk.js",
+    "static/js/3.5461d3e4.chunk.js.map": "/BP_Technology_test_task/static/js/3.5461d3e4.chunk.js.map",
+    "index.html": "/BP_Technology_test_task/index.html",
+    "static/css/main.5c23b777.chunk.css.map": "/BP_Technology_test_task/static/css/main.5c23b777.chunk.css.map",
+    "static/js/2.545fbc4c.chunk.js.LICENSE.txt": "/BP_Technology_test_task/static/js/2.545fbc4c.chunk.js.LICENSE.txt",
+    "static/media/close_btn.63feaaed.svg": "/BP_Technology_test_task/static/media/close_btn.63feaaed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a6bf782.js",
+    "static/js/2.545fbc4c.chunk.js",
+    "static/css/main.5c23b777.chunk.css",
+    "static/js/main.3bfb5a3e.chunk.js"
+  ]
+}
