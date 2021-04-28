@@ -73,7 +73,7 @@
 
 .form_container {
     width: 320px;
-    height: 100px;
+    min-height: 100px;
 }
 
 .form {
@@ -83,6 +83,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.invalid_value {
+    width: 100%;
+    color: red;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 5px 0 10px;
 }
 
 .form_input {
@@ -96,7 +106,6 @@
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    color: #CCCCCC;
 }
 
 .form_btn {

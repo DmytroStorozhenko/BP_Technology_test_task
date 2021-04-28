@@ -20,6 +20,7 @@ export const useForm = (
         setErrors(validate(values));
         setIsSubmitting(true);
         setValues({})
+        setErrors({})
     };
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
